@@ -1,0 +1,56 @@
+:root {
+    --primary: #6C5CE7;
+    --secondary: #A8A4FF;
+    --accent: #FFA726;
+    --glass: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', system-ui;
+}
+
+.glassmorphism {
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+    .btn-gradient:hover {
+        transform: translateY(-2px);
+    }
+
+.rank-progress {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.rank-item {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    opacity: 0.8;
+}
+
+.star {
+    background-image: url('img/star.svg');
+}
+
+.moon {
+    background-image: url('img/moon.svg');
+}
+
+.sun {
+    background-image: url('img/sun.svg');
+}

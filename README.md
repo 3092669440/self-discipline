@@ -1,1 +1,11 @@
-# self-discipline
+# 自律打卡系统
+
+## 功能特性
+- 每日健身/学习打卡
+- 成长等级体系
+- 数据可视化统计
+
+## 技术栈
+- PHP 7.4+
+- PostgreSQL
+- Chart.js
